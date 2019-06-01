@@ -1,0 +1,21 @@
+# Deny access to .htaccess
+<Files "ffagent_crt.p12">
+	Order allow,deny
+	Deny from all
+	Require all denied
+</Files>
+
+<Files "call.log">
+	Order allow,deny
+	Deny from all
+	Require all denied
+</Files>
+
+<Files "credentials.php">
+	Order allow,deny
+	Deny from all
+	Require all denied
+</Files>
+
+# Disable directory browsing
+Options All -Indexes
