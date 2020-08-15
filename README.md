@@ -1,4 +1,4 @@
-This software converts allerts from an [CardiLink](https://cardi-link.com/") AED to the [FF-Agent](http://www.ff-agent.com/).
+This software converts allerts from an [CardiLink](https://cardilink.cloud/) AED to the [FF-Agent](http://www.ff-agent.com/).
 
 
 # Installation
